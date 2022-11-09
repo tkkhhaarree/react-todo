@@ -16,6 +16,10 @@ class App extends Component {
       { id: uuid.v4(), title: 'Complete your course.', completed: false }
     ]
   }
+  
+  // added tk spare comment.
+  // added tk spare comment 2.
+  // final dekhne ke baad added 1 more comment.
 
   markComplete = (id) => {
     this.setState({
@@ -27,6 +31,8 @@ class App extends Component {
       })
     })
   }
+  
+  // added comment via master.
 
   delTodo = (id) => {
     this.setState({ todos: [...this.state.todos.filter(todo => todo.id !== id)] })
