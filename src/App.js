@@ -29,6 +29,8 @@ class App extends Component {
       })
     })
   }
+  
+  // added comment via master.
 
   delTodo = (id) => {
     this.setState({ todos: [...this.state.todos.filter(todo => todo.id !== id)] })
